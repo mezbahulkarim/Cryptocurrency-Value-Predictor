@@ -1,0 +1,18 @@
+The source code consists of a single Python file called "cryptocurrency_value_predictor.py".
+It should be compiled using the latest version of Python 3.9.
+It also requires the following Python libraries to be installed:
+numpy 
+matplotlib
+pandas
+pandas-datareader
+scikit-learn
+tensorflow
+
+When compiling, the terminal will give warnings from tensorflow about not being run on a GPU.
+These can be ignored.
+
+The program will ask for a cryptocurrency ticket code. This needs to be a valid code used on Yahoo Finance.
+For example ADA, ETH or BTC, for Cardano, Ethereum and Bitcoin respectively.
+
+Using a recently launched cryptocurrency such as Shiba Inu (SHIB) will yield unpredictable results,
+as training is only done between the years 2016-2019.
